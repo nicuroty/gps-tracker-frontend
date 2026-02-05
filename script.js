@@ -9,7 +9,7 @@ let autoRefreshInterval;
 
 // ===== INITIALIZE MAP =====
 function initMap() {
-    map = L.map('map').setView([45.4642, 9.1900], 13);
+    map = L.map('map').setView([47.1597, 27.5914], 13);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors',
